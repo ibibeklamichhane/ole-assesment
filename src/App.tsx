@@ -1,3 +1,4 @@
+import BlogSection from "./components/BlogSection"
 import HeroSection from "./components/Hero"
 import Navbar from "./components/Navbar"
 import ServicesSection from "./components/services"
@@ -11,6 +12,7 @@ function App() {
     <Navbar />
     <HeroSection />
     <ServicesSection />
+    <BlogSection />
     </>
 
   )
