@@ -1,4 +1,5 @@
 import BlogSection from "./components/BlogSection"
+import Footer from "./components/Footer"
 import HeroSection from "./components/Hero"
 import Navbar from "./components/Navbar"
 import ServicesSection from "./components/services"
@@ -13,6 +14,7 @@ function App() {
     <HeroSection />
     <ServicesSection />
     <BlogSection />
+    <Footer />
     </>
 
   )
