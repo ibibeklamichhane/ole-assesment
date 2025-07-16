@@ -16,9 +16,9 @@ export default function Navbar() {
           <a href="#about" className="hover:text-[#4E42D9]">About</a>
           <a href="#services" className="hover:text-[#4E42D9]">Services</a>
           <a href="#services" className="hover:text-[#4E42D9]">News</a>
-          <button className='bg-[#4E42D9] py-[16px] px-[30px] rounded-lg text-white'>
-            <a href="#" className="block py-[16px] px-[30px] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-semibold">Contact</a>
-          </button>
+          <button className='bg-[#4E42D9] py-[16px] px-[30px] rounded-lg text-white hover:bg-blue-700 transition-colors cursor-pointer'>
+            Contact
+            </button>
         </div>
 
         <button

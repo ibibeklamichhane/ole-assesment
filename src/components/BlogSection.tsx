@@ -25,7 +25,7 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="bg-[#F8F8F8] py-12 lg:py-18 px-4 sm:px-6 lg:px-8 xl:px-[120px] min-h-screen font-poppins">
+<section className="bg-[#F8F8F8] py-12 lg:py-18 px-4 sm:px-6 lg:px-8 xl:px-[120px] font-poppins">
       <div className="container mx-auto max-w-[1200px]">
         <div className="mb-8 lg:mb-12 flex flex-col items-center justify-center text-center mx-auto max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Blog</h2>
@@ -58,7 +58,7 @@ const BlogSection = () => {
         </div>
 
         <div className="flex justify-center">
-          <button className="bg-[#4E42D9] hover:bg-[#3d35b5] text-white font-medium px-6 sm:px-8 py-3 sm:py-4 rounded-md transition-colors duration-300">
+          <button className="bg-[#4E42D9] hover:bg-[#3d35b5] text-white font-medium px-6 sm:px-8 py-3 sm:py-4 rounded-md transition-colors duration-300 cursor-pointer">
             View All
           </button>
         </div>

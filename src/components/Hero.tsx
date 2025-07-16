@@ -17,10 +17,10 @@ const HeroSection = () => {
             Our team can create amazing web experiences, beginning with deep market research, practical strategies, and professional execution.
           </p>
           <div className="flex flex-col sm:flex-row gap-3 mt-6">
-            <button className="bg-[#4E42D9] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors">
+            <button className="bg-[#4E42D9] text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition-colors cursor-pointer">
               Explore Projects
             </button>
-            <button className="bg-[#4E42D92E] text-[#4E42D9] border border-[#4E42D9] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors">
+            <button className="bg-[#4E42D92E] text-[#4E42D9] border border-[#4E42D9] px-6 py-3 rounded-lg hover:bg-gray-100 transition-colors cursor-pointer">
               About Us
             </button>
           </div>
