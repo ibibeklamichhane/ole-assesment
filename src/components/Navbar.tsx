@@ -4,12 +4,12 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <nav className="bg-white text-black fixed w-full z-10">
-      <div className="max-w-8xl mx-auto px-[40px] py-4 flex items-center justify-between">
+    <nav className="bg-white text-black fixed top-0 w-full z-10 h-[114px]">
+      <div className="max-w-8xl mx-auto px-[40px] py-[32px] flex items-center justify-between">
         <div className="text-3xl font-semibold">
-  <span style={{ color: "#4E42D9" }}>Awww</span>
-  <span className="text-black">some</span>
-</div>
+          <span style={{ color: "#4E42D9" }}>Awww</span>
+          <span className="text-black">some</span>
+      </div>
 
         <div className="hidden md:flex space-x-10 items-center ">
           <a href="#home" className="hover:text-[#4E42D9]">Home</a>
@@ -17,7 +17,7 @@ export default function Navbar() {
           <a href="#services" className="hover:text-[#4E42D9]">Services</a>
           <a href="#services" className="hover:text-[#4E42D9]">News</a>
           <button className='bg-[#4E42D9] py-[16px] px-[30px] rounded-lg text-white'>
-            <a href="#" className="block py-2 px-3 rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700">Contact</a>
+            <a href="#" className="block py-[16px] px-[30px] rounded-sm hover:bg-gray-100 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700 font-semibold">Contact</a>
           </button>
         </div>
 

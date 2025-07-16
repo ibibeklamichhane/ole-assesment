@@ -25,15 +25,15 @@ const ServicesSection = () => {
   ];
 
   return (
-    <section className="w-full py-8 md:py-12 ">
-      <div className="container mx-auto px-4">
+    <section className="w-full py-8 md:py-12 px-4 sm:px-6 lg:px-8 xl:px-[120px] font-poppins">
+      <div className="container mx-auto max-w-[1200px]">
         <h2 className="text-3xl font-bold mb-8 text-center">What We Do</h2>
         
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 justify-items-center">
           {services.map((service, index) => (
             <div 
               key={index} 
-              className="w-full max-w-[285px] mx-auto sm:max-w-none sm:w-auto   p-6 flex flex-col items-center text-center  transition-shadow"
+              className="w-full max-w-[285px] p-6 flex flex-col items-center text-center transition-shadow"
             >
               <div className="mb-4">
                 {service.icon.startsWith('/') ? (

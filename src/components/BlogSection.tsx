@@ -26,8 +26,8 @@ const BlogSection = () => {
   ];
 
   return (
-    <section className="bg-[#F8F8F8] py-12 lg:py-18 px-4 sm:px-6 lg:px-8 xl:px-[120px] min-h-screen">
-      <div className="container mx-auto max-w-7xl">
+    <section className="bg-[#F8F8F8] py-12 lg:py-18 px-4 sm:px-6 lg:px-8 xl:px-[120px] min-h-screen font-poppins">
+      <div className="container mx-auto max-w-[1200px]">
         <div className="mb-8 lg:mb-12 flex flex-col items-center justify-center text-center mx-auto max-w-2xl">
           <h2 className="text-3xl sm:text-4xl font-bold text-gray-900 mb-4">Blog</h2>
           <p className="text-base sm:text-lg text-gray-600 px-4">
@@ -35,13 +35,13 @@ const BlogSection = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8 mb-8 justify-items-center">
           {blogs.map((blog) => (
             <div 
               key={blog.id}
-              className=" overflow-hidden transition-shadow duration-300 max-w-md mx-auto w-full"
+              className="overflow-hidden transition-shadow duration-300 w-full max-w-[386px]"
             >
-              <div className="  overflow-hidden">
+              <div className="overflow-hidden">
                 <img 
                   src={blog.imageUrl} 
                   alt={blog.title}
@@ -49,7 +49,7 @@ const BlogSection = () => {
                 />
               </div>
 
-              <div className="p-4 sm:p-6">
+              <div className="py-4 sm:py-6">
                 <p className="text-sm text-gray-500 mb-2">{blog.date}</p>
                 <h3 className="text-lg sm:text-xl font-semibold text-gray-900 mb-3 leading-tight">{blog.title}</h3>
                 <p className="text-gray-600 text-sm sm:text-base leading-relaxed">{blog.description}</p>
